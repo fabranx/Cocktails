@@ -1,0 +1,32 @@
+.app__barman-img{
+  width: 50%;
+  max-width: 230px;
+  margin: auto;
+  display: block;
+}
+
+.app__welcome-text{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app__container{
+  width: 70%;
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+  .app__container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .app__welcome-text{
+    text-align: center;
+    font-size: 20px;
+  }
+}
+

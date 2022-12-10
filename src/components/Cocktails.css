@@ -1,0 +1,44 @@
+.cocktails__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cocktails__button{
+  background-color: rgb(210, 225, 225);;
+  border: none;
+  color: black;
+  border-radius: 12px;
+  min-height: 3em;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.cocktails__button:hover{
+  background-color: rgb(225, 240, 240);
+  border: 1px solid rgba(175, 172, 172, 0.692);
+}
+
+.cocktails__button_selected{
+  background-color: rgb(185, 200, 200);
+  color: green;
+  border: none;
+  border-radius: 12px;
+  min-height: 3em;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+@media screen and (max-width:768px) {
+  .cocktails__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

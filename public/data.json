@@ -1,0 +1,134 @@
+{ "data" : 
+  [
+  {
+    "name": "White Russian",
+    "ingredients": [
+      {
+        "name": "kahlùa",
+        "part": 1,
+        "color": "#66462F"
+      },
+      {
+        "name": "absolut vodka",
+        "part": 1,
+        "color": "#F5EDDA"
+      },
+      {
+        "name": "heavy cream",
+        "part": 1,
+        "color": "#CA9E7B"
+      }
+    ]
+  },
+  {
+    "name": "Margarita",
+    "ingredients": [
+      {
+        "name": "Cointreau",
+        "part": 1,
+        "color": "#ffc501"
+      },
+      {
+        "name": "Blanco tequila",
+        "part": 2,
+        "color": "#fdfd96"
+      },
+      {
+        "name": "Fresh lime juice",
+        "part": 1,
+        "color": "#99FF1D"
+      }
+    ]
+  },
+  {
+    "name": "Screwdriver",
+    "ingredients": [
+      {
+        "name": "orange juice",
+        "part": 6,
+        "color": "#FCA43C"
+      },
+      {
+        "name": "vodka",
+        "part": 1.5,
+        "color": "#F5EDDA"
+      },
+      {
+        "name": "ice cubes",
+        "part": 1.5,
+        "color": "#E8F6F9"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Mary",
+    "ingredients": [
+      {
+        "name": "Pepper vodka",
+        "part": 2,
+        "color": "#F5EDDA"
+      },
+      {
+        "name": "Tomato juice",
+        "part": 4,
+        "color": "#ff6347"
+      },
+      {
+        "name": " Lemon juice",
+        "part": 0.5,
+        "color": "#FFFAC8"
+      }
+    ]
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": [
+      {
+        "name": "vodka",
+        "part": 1.5,
+        "color": "#F5EDDA"
+      },
+      {
+        "name": "Fresh lime juice",
+        "part": 0.25,
+        "color": "#99FF1D"
+      },
+      {
+        "name": "triple sec",
+        "part": 0.25,
+        "color": "#FCA43C"
+      },
+      {
+        "name": "cranberry juice",
+        "part": 0.25,
+        "color": "#ba4242"
+      },
+      {
+        "name": "ice cubes",
+        "part": 1.5,
+        "color": "#E8F6F9"
+      }
+    ]
+  },
+  {
+    "name": "Tequilla Sunrise",
+    "ingredients": [
+      {
+        "name": "tequila",
+        "part": 2,
+        "color": "#66462F"
+      },
+      {
+        "name": "orange juice",
+        "part": 4,
+        "color": "#FCA43C"
+      },
+      {
+        "name": "grenadine",
+        "part": 0.5,
+        "color": "#F9677A"
+      }
+    ]
+  }
+]
+}

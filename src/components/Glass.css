@@ -1,0 +1,62 @@
+.glass__container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1192px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glass__clip{
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  left:3px;
+  top: 3px;
+  background: white;
+  width: 250px;
+  height: 270px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+  z-index: 1;
+}
+
+.glass__clip-outside{
+  z-index: -1;
+  position:relative;
+  background: rgb(0, 0, 0);
+  width: 256px;
+  height: 276px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+}
+
+.glass__flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass__text{
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+.glass__coaster{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  background-color: black;
+  height: 3px;
+  width: 256px;
+}
+
+
+@keyframes SlideUp {
+  from{
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
